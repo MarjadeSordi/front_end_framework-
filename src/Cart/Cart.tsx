@@ -111,7 +111,7 @@ const Cart: React.FC<Props> = ({cartItems, addToCart, removeFromCart}) => {
         <div className='modalForconfirm'>
           <h2>Pedido Efetuado com Sucesso!</h2>
           <p> Items: {data.mercadoria}</p>
-          <p> Forma de Pagamento {data.mercadoria} </p>
+          <p> Forma de Pagamento {data.pagamento} </p>
           <h2> TOTAL: R$ {data.total}</h2>
 
           <Button onClick={handleClose}> Ok! </Button>
